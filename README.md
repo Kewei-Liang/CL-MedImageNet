@@ -1,13 +1,14 @@
 # CL-MedImageNet
 
 <p>
-   <img width="850" src="https://raw.githubusercontent.com/Kewei-Liang/CL-MedImageNet/Fig.1The overall flowchart of this study.tif"></a>
+    <a align="left" href="https://ultralytics.com/yolov5" target="_blank">
+   <img width="850" src="https://github.com/Kewei-Liang/CL-MedImageNet/Fig1.tif"></a>
 </p>
 <br>
 
 ## <div align="center">Introduction</div>
 <p>
-  This is the python implementation of the paper "The Joint Detection and Classification model for spatiotemporal action localization of primates in a group" and our paper will be published soon.
+  This is the python implementation of the paper "A Fully Automated Hybrid Approach for Predicting Sacral Tumor Types Using Deep Learning" and our paper will be published soon.
 </p>
 
 ## <div align="center">Quick Start a Example</div>
