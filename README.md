@@ -1,7 +1,7 @@
 # CL-MedImageNet
 
 <p>
-   <img width="850" src="https://raw.githubusercontent.com/Kewei-Liang/JDC-MF/main/Figures/test.jpg"></a>
+   <img width="850" src="https://raw.githubusercontent.com/Kewei-Liang/CL-MedImageNet/Fig.1The overall flowchart of this study.tif"></a>
 </p>
 <br>
 
