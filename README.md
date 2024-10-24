@@ -1,8 +1,7 @@
 # CL-MedImageNet
 
 <p>
-    <a align="left" href="https://ultralytics.com/yolov5" target="_blank">
-   <img width="850" src="https://github.com/Kewei-Liang/CL-MedImageNet/Fig1.tif"></a>
+        <img width="850" src="https://github.com/Kewei-Liang/CL-MedImageNet/raw/main/fig1.png">
 </p>
 <br>
 
@@ -11,43 +10,40 @@
   This is the python implementation of the paper "A Fully Automated Hybrid Approach for Predicting Sacral Tumor Types Using Deep Learning" and our paper will be published soon.
 </p>
 
-## <div align="center">Quick Start a Example</div>
+## <div align="center">Quick Start a Segmentation Example</div>
 </details>
   
 <details open>
 <summary>Train with train.py</summary>
 
-`detect.py` runs train and saving results to `runs/train`.
-
+The segmentation folder stores training and evaluation codes for tumor segmentation.
+Run segmentation/train.py for segmentation training.
 ```bash
-python train.py  --data  data/JDC-MF-example.yaml
+python segmentation/train.py 
 ```
+Run segmentation/val.py for segmentation evaluation.
+```bash
+python segmentation/val.py 
+```
+Hip segmentation code is similar to tumor segmentation code
 
-</details>
+## <div align="center">Quick Start a Classification Example</div>
 
+
+“Normalize” file is used to normalize clinical information and location information
+```bash
+python Normalize.py 
+```
+Run train.py for classification training.
+```bash
+python train.py 
+```
+Run val.py for classification evaluation.
+```bash
+python val.py 
+```
 </details>
   
 <details open>
-<summary>Validation with val.py</summary>
-
-`detect.py` runs validation and saving results to `runs/val`.
-
-```bash
-python val.py --data  data/JDC-MF-example.yaml
-```
-
-</details>
-
-</details>
-  
-<details open>
-<summary>Inference with detect.py</summary>
-
-`detect.py` runs inference and saving results to `runs/detect`.
-
-```bash
-python detect.py 
-```
-
 </details>
 
