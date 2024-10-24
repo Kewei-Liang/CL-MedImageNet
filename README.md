@@ -12,29 +12,6 @@
 </p>
 
 ## <div align="center">Quick Start a Example</div>
-<details open>
-<summary>Install</summary>
-[**Python>=3.7.0**](https://www.python.org/) environment, including
-[**PyTorch>=1.7**](https://pytorch.org/get-started/locally/).
-
-```bash
-cd JDC-MF
-pip install -r requirements.txt  # install
-```
-</details>
-  
-<details open>
-<summary>Data preparation</summary>
-A example of unzip data
-   
-```bash
-cd data_example
-unzip frames
-unzip labels
-```
-
-</details>
-
 </details>
   
 <details open>
